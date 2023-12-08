@@ -1,0 +1,29 @@
+{
+  "name": "ron-portfolio",
+  "version": "1.0.1",
+  "description": "my portfolio to show to clients",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronjohnson-owuor/ronjohnson-owuor.github.io.git"
+  },
+  "keywords": [
+    "ronjohnson",
+    "ron-portfolio",
+    "portfolio"
+  ],
+  "author": "ronjohnson owuor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronjohnson-owuor/ronjohnson-owuor.github.io/issues"
+  },
+  "homepage": "https://github.com/ronjohnson-owuor/ronjohnson-owuor.github.io#readme",
+  "dependencies": {
+    "vite": "^5.0.6"
+  }
+}
