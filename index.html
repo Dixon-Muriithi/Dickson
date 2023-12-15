@@ -7,95 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- navigation -->
-    <div id="navigation">
-        <div id="logo">
-            <h1>RJ</h1>
-        </div>
-        <div id="link">
-                <a href="#about"> home</a>
-                <a href="#skill">skills</a>
-                <a href="#projects">projects</a>
-                <a href="#stack">stack</a>
-        </div>
-    </div>
-    <!-- about me -->
-    <div class='about' id="about">
-        <div id="about_text">
-            <h1>Ronjohnson owuor</h1>
-            <p>My name is Ronjohnson Owuor.I am 18 years of age and lives in nairobi,Kenya.I have a passion for computer programming and like to use my skills in solving real world problem.I like to collaborate on exiting projects with my fellow developers
-            </p>
-            <div>
-             <button>learn more</button>   
-            </div>
+    <div class="hero_page">
+        <h1 id="my_name">Ronjohnson Owuor</h1>
+        <span id="career_full">I am a <b id="career">software developer</b></span>
+        <!-- start of the coding logo -->
+        <svg id="coding_logo" width="4687" height="2864" viewBox="0 0 4687 2864" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="bar_top_left" d="M881.516 1429.4L1980.53 469.043C1982.85 467.011 1982.8 463.378 1980.42 461.416L1764.39 283.684C1762.51 282.134 1759.78 282.17 1757.94 283.768L671.554 1226.22C669.333 1228.14 669.245 1231.56 671.364 1233.6L874.76 1429.24C876.629 1431.03 879.563 1431.1 881.516 1429.4Z" fill="#F7F305" stroke="black"/>
+            <path id="bar_bottom_left" d="M313.904 1348.51L1499.08 2427.98C1500.3 2429.1 1502.2 2429.43 1504.05 2428.84L1840.3 2322.47C1844.22 2321.23 1845.87 2316.76 1843.28 2314.39L682.404 1249.31C681.259 1248.26 679.512 1247.9 677.759 1248.35L317.209 1340.32C313.085 1341.37 311.199 1346.04 313.904 1348.51Z" fill="#F7F305" stroke="black"/>
+            <path id="bar_top_right" d="M3744.42 1425.58L2593.43 2215.34C2590.74 2217.18 2590.51 2221.06 2592.96 2223.21L2794.11 2399.91C2795.82 2401.42 2798.34 2401.57 2800.22 2400.29L3937.56 1625.81C3940.13 1624.06 3940.49 1620.41 3938.32 1618.18L3750.83 1426.2C3749.13 1424.47 3746.42 1424.2 3744.42 1425.58Z" fill="#F7F305" stroke="black"/>
+            <path id="bar_bottom_right" d="M4299.43 1540.22L3200.97 474.502C3199.87 473.436 3198.12 473.024 3196.31 473.405L2857.48 544.965C2853.25 545.857 2851.06 550.326 2853.61 552.825L3929.06 1603.73C3930.09 1604.73 3931.69 1605.16 3933.39 1604.89L4295.24 1548.15C4299.64 1547.46 4302.1 1542.8 4299.43 1540.22Z" fill="#F7F305" stroke="black"/>
+            <rect id="slash" x="2571.77" width="264" height="2882" rx="5" transform="rotate(13.5609 2571.77 0)" fill="#012041"/>
+            </svg>
             
-        </div>
-        <div id="about_image">
-            <img  src="./assets/me.svg" alt="">
-        </div>
-    
-    </div>
-    <!-- my skills -->
-    <div class='skills' id="skill">
-        <div id="about_image">
-            <img  src="./assets/skillsimage.svg" alt="">
-        </div>
-
-        <div id="about_text">
-            <h1>My skills 🤹‍♂️</h1>
-            <p>I am a talented frontend engineer with immense mastery in HTML,CSS  and git.For more of my skills you can download my cv using the button provided below</p>
-            <div>
-             <button>download cv</button>   
-            </div>
-            
-        </div>
-        
-    
-    </div>
-    <!-- projects -->
-    <center><h1 id="skill_heading">my projects</h1></center>
-    <di id="projects">
-        <div >
-            <h3>Kodesfusion</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae enim distinctio dignissimos ut. Consequuntur expedita, accusamus architecto officia repellat vitae inventore deserunt modi iste, ad consectetur necessitatibus veritatis, hic iusto!</p>
-            <br>
-            <button>learn more</button> 
-
-        </div>
-        <div >
-            <h3>Management system</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae enim distinctio dignissimos ut. Consequuntur expedita, accusamus architecto officia repellat vitae inventore deserunt modi iste, ad consectetur necessitatibus veritatis, hic iusto!</p>
-            <br>
-            <button>learn more</button> 
-
-        </div>
-    </di>
-    <!-- skills logo-->
-    <center><h1 id="skill_heading"> my stack 🚀</h1></center>
-    <div id="skill_listing">
-        <div class="skills_wrapper">
-            <img class="image1" src="./assets/html.png" alt="html">
-            <br>
-            <span>html</span>
-        </div>
-        <div class="skills_wrapper ">
-            <img class="image2" src="./assets/css.png" alt="css">
-            <br>
-            <span>css</span>
-        </div>
-        <div class="skills_wrapper ">
-            <img class="image2" src="./assets/github.png" alt="github">
-            <br>
-            <span>github</span>
-        </div>
-    </div>
-    <div id="stack"></div>
-
-    <div>
-        <footer>
-            &copy; All rights reserved by Ronjohnson | Designed with ❤️ and �
-        </footer>
+        <!-- end of coding log -->
     </div>
 </body>
-<script type="module" src="index.js"></script>
+<script type="module" src="index.ts"></script>
 </html>
