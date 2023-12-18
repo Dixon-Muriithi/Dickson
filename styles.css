@@ -261,3 +261,83 @@
     margin-left: 4rem;
     margin-bottom: 4rem;
 }
+
+.work_box{
+    width: 90%;
+    margin: 4rem 0rem 4rem 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.container{
+    width:30px;
+    height: 30px;
+    border: 3px dashed var(--primary);
+    border-radius: 100vh;
+}
+
+#content_box{
+    width: 80%;
+    color: var(--text);
+}
+
+.box1{
+    width: 25px;
+    height: 25px;
+    background: var(--primary);
+    border-radius: 100vh;
+    margin: 5%;
+    margin-left: 8%;
+}
+
+#content_box p{
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+#content_box h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    color: var(--primary);
+    margin: 4rem;
+}
+
+#content_box b{
+    color: var(--primary);
+}
+
+#contacts{
+    background: var(--primary);
+    padding: 5rem 0px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: var(--text);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#contacts span,#contacts h3{
+    background: transparent;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#contacts button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--secondary) ,  red);
+    color: var(--text);
+    cursor: pointer;
+}
